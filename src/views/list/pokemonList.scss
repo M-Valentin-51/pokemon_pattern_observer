@@ -1,0 +1,37 @@
+.pokemonList {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .itemPokemon {
+        width: 50%;
+        min-width: 300px;
+        text-align: center;
+
+
+        li {
+            list-style: none;
+        }
+
+        section {
+            display: flex;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            img {
+                width: 50%;
+                ;
+            }
+        }
+
+        .pokemonType {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+}
